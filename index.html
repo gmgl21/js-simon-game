@@ -7,11 +7,49 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type="text/css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="simongame.css">
 </head>
 <body>
+    <div class="container game">
+      <div class="tiles" id="green" data-tile="0"></div>
+      <div class="tiles" id="red" data-tile="1"></div>
+      <div class="tiles" id="yellow" data-tile="2"></div>
+      <div class="tiles" id="blue" data-tile="3"></div>
+      <div id="center">
+        <div id="gameName">Simon<sup>&reg;</sup></div>
+        <div class="controls">
+          <div id="countbox">
+            <div id="displayText">
+              <br>
+            </div>
+            <div id="countText">count</div>
+          </div>
+          <div id="resetbox">
+            <div id="resetBtn"></div>
+            <div id="resetText">reset</div>
+          </div>
+          <div id="strictbox">
+            <div id="strictBtn"></div>
+            <div id="strictText">strict</div>
+          </div>
+        </div>
+          <div id="start">
+            <button id="start" class="start btn">START</button>
+            <!-- <label class="checkbox-inline">
+  <input type="checkbox" data-toggle="toggle" data-on="ON" data-off="OFF" data-onstyle="success" data-offstyle="danger"data-width="3" data-height="1" data-style="slow">
+            </label> -->
+          </div>
+      </div>
+    </div>
+<audio id="sound-green" type ="audio/mp3" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+<audio id="sound-red" type ="audio/mp3" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+<audio id="sound-blue" type ="audio/mp3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+<audio id="sound-yellow" type ="audio/mp3" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="simongame.js"></script>
