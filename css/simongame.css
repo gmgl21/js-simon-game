@@ -1,5 +1,6 @@
 html,
-body {
+body, 
+button {
   text-align: center;
   text-transform: uppercase;
 }
@@ -168,7 +169,6 @@ sup{
 }
 
 #start {
-  -webkit-appearance: button;
   background-color: red;
   color: white;
   height: 3em !important;
