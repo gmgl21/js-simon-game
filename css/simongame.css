@@ -83,12 +83,12 @@ body{
 #gameName{
   margin-top: 50px;
   text-align: center;
-  font: bold 3rem 'Bevan', sans-serif;
+  font: bold 4rem 'Bevan', sans-serif;
   text-transform: none !important;
 }
 sup{
   vertical-align: bottom !important;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 2;
   margin-left:0.5rem;
 }
@@ -170,8 +170,8 @@ sup{
 #start {
   background-color: red;
   color: white;
-  height: 3em;
-  width: 6em;
+  height: 3em !important;
+  width: 6em !important;
   border-radius: 10%;
   padding: 5px 10px;
   margin: 10px auto;
@@ -180,7 +180,7 @@ sup{
 button span {
   display: inline-block;
   font-size: 1.5em;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .btn {
