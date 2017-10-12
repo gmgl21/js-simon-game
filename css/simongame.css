@@ -179,6 +179,7 @@ sup{
 
 #start span {
   display: inline-block;
+  margin: 0 auto;
   text-transform: uppercase!important;
 }
 
