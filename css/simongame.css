@@ -176,10 +176,11 @@ sup{
   padding: 5px 10px;
   margin: 10px auto;
 }
-span {
+
+#start span {
   display: inline-block;
   margin: 0 auto;
-  text-transform: uppercase;
+  text-transform: uppercase!important;
 }
 
 .btn {
