@@ -1,5 +1,6 @@
 html,
-body{
+body, 
+button {
   text-align: center;
   text-transform: uppercase;
 }
@@ -168,13 +169,14 @@ sup{
 }
 
 #start {
+  -webkit-appearance: button;
   background-color: red;
   color: white;
   height: 3em !important;
   width: 6em !important;
   border-radius: 10%;
   padding: 5px 10px;
-  margin: 10px auto;
+  margin-top: 10px;
 }
 
 button span {
