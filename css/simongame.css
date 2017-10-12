@@ -167,16 +167,19 @@ sup{
   color: #000;
 }
 
-#start {
+#start.btn {
   background-color: red;
   color: white;
-  height: 2.5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 6rem;
   border-radius: 10%;
-  text-align: center!important;
-  font: 500 1rem!important sans-serif;
+  padding: 5px 10px;
+  margin: 10px auto;
+}
+span {
+  display: inline-block;
   margin: 0 auto;
-  padding: 0;
+  text-transform: uppercase;
 }
 
 .btn {
