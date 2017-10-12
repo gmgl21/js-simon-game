@@ -192,7 +192,7 @@ footer {
   font: 900 1rem sans-serif;
 }
 
-@media screen and (min-width:320px)and (max-width: 1000px){
+@media screen and (min-width:320px)and (max-width: 1024px){
   .game {
     height: 250px;
     width: 250px;
@@ -259,7 +259,7 @@ footer {
   #start {
     height: 1rem;
     width: 2.5rem;
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-top: 0.1rem;
     padding: 0;
   }
